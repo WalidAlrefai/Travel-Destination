@@ -1,9 +1,12 @@
-
+import Home from "./components/home/Home"
 import './App.css';
+import tourData from "./data/db.json"
 
 function App() {
   return (
-    console.log("hi")
+    <>
+      <Home data={tourData} />
+    </>
   )
 }
 
