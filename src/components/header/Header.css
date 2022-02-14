@@ -1,6 +1,6 @@
-h1.header{
+.header{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: #193498;
     height: 100px;
