@@ -1,14 +1,16 @@
 
+import "./Home.css"
 import Header from "../header/Header"
-import Tour from "../tour/Tour"
+import Tours from "../tours/Tours"
 import Footer from "../footer/Footer"
 
 export default function Home(props) {
-    return (<>
+    return (
+    <div className="home">
         <Header />
-        <Tour data2={props.data} />
+        <Tours data2={props.data} />
         <Footer />
-    </>
+    </div>
     )
 
 }
